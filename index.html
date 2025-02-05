@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>MessagingApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+    </div>
+    <div class="chat-container">
+        <div class="left-panel">
+            <header>
+                <img src="https://th.bing.com/th/id/OIP.1gPK2N7633T9dysOnQsXEwHaHx?w=168&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt= "profile-pic" class="profile-picture">
+                <div class="notification-cluster">
+                    <img src="./assets/night.png" alt="darkmode" class="dark-mode">
+                    <img src="./assets/notification.png" alt="darkmode" class="notification">    
+                    <img src="./assets/menu.png" alt="darkmode" class="more-icon">
+                </div>
+            </header>
+            <section>
+                <div class="warning-notification" id="warning-notification">
+                    <img src="./assets/diamond.png" alt="diamond-notification" class="notification-icon">
+                    <div class="warning-content">
+                        <h3>No Contacts</h3>
+                        <p>You can import contacts from google</p>
+                    </div>
+                    <img src="./assets/close.png" alt="close icon" class="close-icon">
+                </div>
+                <div class="search-user">
+                    <div class="search-box">
+                        <img src="./assets/search.png" class="search-icon" alt="search-icon">
+                        <input type="text" placeholder="this is a search box" class="search-box">
+                    </div>
+                </div>
+                <article class="sidebar">
+                    <div id="chatList">
+                    </div>
+                </article>
+            </section>
+            
+        </div>
+        <div class="right-panel">
+            <header>
+                <div class="receiver-data">
+                    <img src="./assets/secondUser.png" alt="second-user" class="second-user">
+                    <h2>John</h2>
+                </div>
+                <div class="chat-window-other-options">
+                    <img src="./assets/search2.png" alt="search-option" class="search-icon">
+                    <img src="./assets/menu.png" alt="menu" class="notification-icon">
+                </div>
+            </header>
+            <article class="chat-window">
+            </article>
+            <footer>
+                <img src="./assets/smiling.png" alt="attchIcon" class="attach-icon">
+                <img src="./assets/attachicon.png" alt="attchIcon" class="attach-icon">
+                <div>
+                    <input class="text-message-area" id="input1" type="text" placeholder="Type your message here">
+                </div>
+                <img src="./assets/send.png" alt="send message" class="send-icon">
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
