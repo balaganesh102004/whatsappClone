@@ -31,7 +31,7 @@ body {
 .right-panel {
     width: 70%;
     min-width: 30vw;
-    background-image: url(./assets/chatbg.png);
+    background-image: url(asset/chatbg.png);
 }
 
 .left-panel {
